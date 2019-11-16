@@ -1,0 +1,99 @@
+body {
+    background-color: #f6f6f6;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav img {
+    float: left;
+    width: 11.3%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #8785a2;
+}
+
+.topnav a {
+    float: right;
+    color: #ffe2e2;
+    padding: 10px;
+    margin-top: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 15px;
+    width: 5%;
+    text-align: center;
+}
+
+.topnav a:hover {
+    background-color: #8785a2;
+    color: black;
+}
+
+
+/* Table  */
+
+table {
+    float: left;
+    border: 1px solid #8785a2;
+}
+
+th {
+    background-color: #8785a2;
+    height: 50px;
+    color: #ffe2e2;
+}
+
+td {
+    color: #ffe2e2;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    height: 91px;
+}
+
+tr:nth-child(odd) {
+    background-color: #8785a2;
+}
+
+
+/* Left-Table */
+
+.price-list {
+    float: left;
+    margin-top: 2px;
+}
+
+
+/* ProductPurchase */
+
+.products {
+    float: left;
+    width: 25%;
+    border: 2px solid #8785a2;
+    border-radius: 8px;
+    margin: 1%;
+}
+
+.product-logo {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.products p {
+    text-align: center;
+    color: #8785a2;
+}
+
+button {
+    border-radius: 5px;
+    font: bold;
+    text-align: center;
+    width: 100%;
+    color: #ffe2e2;
+    background-color: #8785a2;
+}
