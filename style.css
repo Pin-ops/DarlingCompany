@@ -17,12 +17,11 @@ body {
 .topnav a {
     float: right;
     color: #ffe2e2;
-    padding: 10px;
-    margin-top: 50px;
-    margin-right: 50px;
+    font: bold;
+    margin-top: 3%;
+    margin-right: 10%;
     text-decoration: none;
     font-size: 15px;
-    width: 5%;
     text-align: center;
 }
 
@@ -36,10 +35,11 @@ body {
 
 table {
     float: left;
-    border: 1px solid #8785a2;
+    border: 2px solid #8785a2;
 }
 
 th {
+    border: none;
     background-color: #8785a2;
     height: 50px;
     color: #ffe2e2;
@@ -54,7 +54,11 @@ td {
 }
 
 tr:nth-child(odd) {
-    background-color: #8785a2;
+    background-color: #706e88;
+}
+
+tr:nth-child(even) {
+    background-color: #bbb9d8;
 }
 
 
